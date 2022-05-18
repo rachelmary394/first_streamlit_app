@@ -52,9 +52,9 @@ except URLError as e:
   
 
 #import requests
-fruityvice_response = requests.get("https://fruityvice.com/api/fruit/" + fruit_choice)
-fruityvice_response = pandas.json_normalize(fruityvice_response.json())
-streamlit.dataframe(fruityvice_response)
+#fruityvice_response = requests.get("https://fruityvice.com/api/fruit/" + fruit_choice)
+#fruityvice_response = pandas.json_normalize(fruityvice_response.json())
+#streamlit.dataframe(fruityvice_response)
 
 
 streamlit.stop()
