@@ -62,7 +62,7 @@ except URLError as e:
 #streamlit.dataframe(fruityvice_response)
 
 
-streamlit.stop()
+
 
 
 
